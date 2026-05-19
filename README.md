@@ -82,13 +82,25 @@ Download the trained model files from Google Drive:
 https://drive.google.com/drive/folders/1sodfWXD5BJtqnEUrER3l3cESC03zmEY4?usp=sharing
 ```
 
-Place the required main model at:
+The Google Drive folder is organized like this:
 
 ```text
-models/hybrid_dl_ml_model.pkl
+IoT-project-models/
++-- Mian_model/
+|   +-- hybrid_dl_ml_model.pkl
+|   +-- dl_model_component.h5
++-- old models/
+    +-- optional backup model files
 ```
 
-Older or backup model files can stay separate unless you need them for testing.
+Download the files from `Mian_model/` and place them in the project like this:
+
+```text
+Mian_model/hybrid_dl_ml_model.pkl -> models/hybrid_dl_ml_model.pkl
+Mian_model/dl_model_component.h5  -> Tool/dl_model_component.h5
+```
+
+The `old models/` folder is only for backup or testing. It is not required to run the IDS GUI.
 
 ## Run the IDS GUI
 
@@ -96,6 +108,7 @@ After training or downloading the model, make sure this file exists:
 
 ```text
 models/hybrid_dl_ml_model.pkl
+Tool/dl_model_component.h5
 ```
 
 Then run:
