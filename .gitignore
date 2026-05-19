@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+iot_env/
+tf_env/
+venv/
+.venv/
+env/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets and generated data
+datasets/
+*.csv
+
+# Logs and packet captures
+logs/
+Tool/logs/
+*.log
+*.pcap
+*.pcapng
+
+# Trained/generated model binaries
+models/
+old models/
+*.pkl
+*.h5
+*.keras
+
+# Build/test artifacts
+.pytest_cache/
+dist/
+build/
+*.egg-info/
