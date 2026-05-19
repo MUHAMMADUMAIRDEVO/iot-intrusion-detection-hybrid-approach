@@ -74,7 +74,21 @@ The trained model is saved to:
 models/hybrid_dl_ml_model.pkl
 ```
 
-This file is not committed to GitHub because it is large. Share trained models through GitHub Releases, Git LFS, Google Drive, OneDrive, or another file hosting service.
+This file is not committed to GitHub because it is large.
+
+Download the trained model files from Google Drive:
+
+```text
+https://drive.google.com/drive/folders/1sodfWXD5BJtqnEUrER3l3cESC03zmEY4?usp=sharing
+```
+
+Place the required main model at:
+
+```text
+models/hybrid_dl_ml_model.pkl
+```
+
+Older or backup model files can stay separate unless you need them for testing.
 
 ## Run the IDS GUI
 
